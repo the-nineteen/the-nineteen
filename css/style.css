@@ -320,6 +320,22 @@ section {
     text-shadow: 0 0 10px var(--accent-dark);
 }
 
+.contact-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-bar p {
+    margin: 0;
+    color: #ccc;
+    line-height: 1.8;
+}
+
+.contact-bar .buy-links {
+    margin-top: 10px;
+}
+
 /* =========================
    PLAYLIST
 ========================= */
